@@ -1,0 +1,100 @@
+2024-11-30T06:47:26.772632+00:00 heroku[web.1]: Process exited with status 4
+2024-11-30T06:47:26.791305+00:00 heroku[web.1]: State changed from up to crashed
+2024-11-30T06:47:48.000000+00:00 app[api]: Build succeeded
+2024-11-30T06:57:41.297132+00:00 heroku[web.1]: State changed from crashed to starting
+2024-11-30T06:57:47.093974+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2024-11-30T06:57:47.614720+00:00 app[web.1]: Python buildpack: Detected 512 MB available memory and 8 CPU cores.
+2024-11-30T06:57:47.614831+00:00 app[web.1]: Python buildpack: Defaulting WEB_CONCURRENCY to 2 based on the available memory.
+2024-11-30T06:57:47.841016+00:00 app[web.1]: [2024-11-30 06:57:47 +0000] [2] [INFO] Starting gunicorn 20.1.0
+2024-11-30T06:57:47.841291+00:00 app[web.1]: [2024-11-30 06:57:47 +0000] [2] [INFO] Listening at: http://0.0.0.0:26796 (2)
+2024-11-30T06:57:47.841326+00:00 app[web.1]: [2024-11-30 06:57:47 +0000] [2] [INFO] Using worker: sync
+2024-11-30T06:57:47.843388+00:00 app[web.1]: [2024-11-30 06:57:47 +0000] [9] [INFO] Booting worker with pid: 9
+2024-11-30T06:57:47.946669+00:00 app[web.1]: [2024-11-30 06:57:47 +0000] [17] [INFO] Booting worker with pid: 17
+2024-11-30T06:57:48.262329+00:00 heroku[web.1]: State changed from starting to up
+2024-11-30T06:57:48.654005+00:00 app[web.1]: Application object must be callable.
+2024-11-30T06:57:48.654178+00:00 app[web.1]: [2024-11-30 06:57:48 +0000] [9] [INFO] Worker exiting (pid: 9)
+2024-11-30T06:57:48.733349+00:00 app[web.1]: Application object must be callable.
+2024-11-30T06:57:48.733506+00:00 app[web.1]: [2024-11-30 06:57:48 +0000] [17] [INFO] Worker exiting (pid: 17)
+2024-11-30T06:57:48.781818+00:00 app[web.1]: [2024-11-30 06:57:48 +0000] [2] [WARNING] Worker with pid 17 was terminated due to signal 15
+2024-11-30T06:57:48.875948+00:00 app[web.1]: [2024-11-30 06:57:48 +0000] [2] [INFO] Shutting down: Master
+2024-11-30T06:57:48.875982+00:00 app[web.1]: [2024-11-30 06:57:48 +0000] [2] [INFO] Reason: App failed to load.
+2024-11-30T06:57:48.945959+00:00 heroku[web.1]: Process exited with status 4
+2024-11-30T06:57:48.966765+00:00 heroku[web.1]: State changed from up to crashed
+2024-11-30T07:08:37.501628+00:00 heroku[web.1]: State changed from crashed to starting
+2024-11-30T07:08:43.633279+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2024-11-30T07:08:44.124800+00:00 app[web.1]: Python buildpack: Detected 512 MB available memory and 8 CPU cores.
+2024-11-30T07:08:44.124885+00:00 app[web.1]: Python buildpack: Defaulting WEB_CONCURRENCY to 2 based on the available memory.
+2024-11-30T07:08:44.334425+00:00 app[web.1]: [2024-11-30 07:08:44 +0000] [2] [INFO] Starting gunicorn 20.1.0
+2024-11-30T07:08:44.334674+00:00 app[web.1]: [2024-11-30 07:08:44 +0000] [2] [INFO] Listening at: http://0.0.0.0:46252 (2)
+2024-11-30T07:08:44.334703+00:00 app[web.1]: [2024-11-30 07:08:44 +0000] [2] [INFO] Using worker: sync
+2024-11-30T07:08:44.336586+00:00 app[web.1]: [2024-11-30 07:08:44 +0000] [9] [INFO] Booting worker with pid: 9
+2024-11-30T07:08:44.399097+00:00 app[web.1]: [2024-11-30 07:08:44 +0000] [17] [INFO] Booting worker with pid: 17
+2024-11-30T07:08:44.828047+00:00 heroku[web.1]: State changed from starting to up
+2024-11-30T07:08:45.116414+00:00 app[web.1]: Application object must be callable.
+2024-11-30T07:08:45.116538+00:00 app[web.1]: [2024-11-30 07:08:45 +0000] [9] [INFO] Worker exiting (pid: 9)
+2024-11-30T07:08:45.184319+00:00 app[web.1]: Application object must be callable.
+2024-11-30T07:08:45.184490+00:00 app[web.1]: [2024-11-30 07:08:45 +0000] [17] [INFO] Worker exiting (pid: 17)
+2024-11-30T07:08:45.240034+00:00 app[web.1]: [2024-11-30 07:08:45 +0000] [2] [WARNING] Worker with pid 17 was terminated due to signal 15
+2024-11-30T07:08:45.332910+00:00 app[web.1]: [2024-11-30 07:08:45 +0000] [2] [INFO] Shutting down: Master
+2024-11-30T07:08:45.332941+00:00 app[web.1]: [2024-11-30 07:08:45 +0000] [2] [INFO] Reason: App failed to load.
+2024-11-30T07:08:45.393457+00:00 heroku[web.1]: Process exited with status 4
+2024-11-30T07:08:45.412263+00:00 heroku[web.1]: State changed from up to crashed
+2024-11-30T07:19:41.328243+00:00 heroku[web.1]: State changed from crashed to starting
+2024-11-30T07:19:47.467884+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2024-11-30T07:19:47.983658+00:00 app[web.1]: Python buildpack: Detected 512 MB available memory and 8 CPU cores.
+2024-11-30T07:19:47.983709+00:00 app[web.1]: Python buildpack: Defaulting WEB_CONCURRENCY to 2 based on the available memory.
+2024-11-30T07:19:48.251951+00:00 app[web.1]: [2024-11-30 07:19:48 +0000] [2] [INFO] Starting gunicorn 20.1.0
+2024-11-30T07:19:48.252229+00:00 app[web.1]: [2024-11-30 07:19:48 +0000] [2] [INFO] Listening at: http://0.0.0.0:40732 (2)
+2024-11-30T07:19:48.252259+00:00 app[web.1]: [2024-11-30 07:19:48 +0000] [2] [INFO] Using worker: sync
+2024-11-30T07:19:48.254752+00:00 app[web.1]: [2024-11-30 07:19:48 +0000] [9] [INFO] Booting worker with pid: 9
+2024-11-30T07:19:48.279105+00:00 app[web.1]: [2024-11-30 07:19:48 +0000] [17] [INFO] Booting worker with pid: 17
+2024-11-30T07:19:48.656354+00:00 heroku[web.1]: State changed from starting to up
+2024-11-30T07:19:49.105757+00:00 app[web.1]: Application object must be callable.
+2024-11-30T07:19:49.105897+00:00 app[web.1]: [2024-11-30 07:19:49 +0000] [17] [INFO] Worker exiting (pid: 17)
+2024-11-30T07:19:49.191663+00:00 app[web.1]: Application object must be callable.
+2024-11-30T07:19:49.191813+00:00 app[web.1]: [2024-11-30 07:19:49 +0000] [9] [INFO] Worker exiting (pid: 9)
+2024-11-30T07:19:49.220781+00:00 app[web.1]: [2024-11-30 07:19:49 +0000] [2] [WARNING] Worker with pid 9 was terminated due to signal 15
+2024-11-30T07:19:49.315460+00:00 app[web.1]: [2024-11-30 07:19:49 +0000] [2] [INFO] Shutting down: Master
+2024-11-30T07:19:49.315486+00:00 app[web.1]: [2024-11-30 07:19:49 +0000] [2] [INFO] Reason: App failed to load.
+2024-11-30T07:19:49.377518+00:00 heroku[web.1]: Process exited with status 4
+2024-11-30T07:19:49.397527+00:00 heroku[web.1]: State changed from up to crashed
+2024-11-30T07:30:43.782048+00:00 heroku[web.1]: State changed from crashed to starting
+2024-11-30T07:30:50.013117+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2024-11-30T07:30:50.525008+00:00 app[web.1]: Python buildpack: Detected 512 MB available memory and 8 CPU cores.
+2024-11-30T07:30:50.525095+00:00 app[web.1]: Python buildpack: Defaulting WEB_CONCURRENCY to 2 based on the available memory.
+2024-11-30T07:30:50.747420+00:00 app[web.1]: [2024-11-30 07:30:50 +0000] [2] [INFO] Starting gunicorn 20.1.0
+2024-11-30T07:30:50.747700+00:00 app[web.1]: [2024-11-30 07:30:50 +0000] [2] [INFO] Listening at: http://0.0.0.0:26249 (2)
+2024-11-30T07:30:50.747734+00:00 app[web.1]: [2024-11-30 07:30:50 +0000] [2] [INFO] Using worker: sync
+2024-11-30T07:30:50.749720+00:00 app[web.1]: [2024-11-30 07:30:50 +0000] [9] [INFO] Booting worker with pid: 9
+2024-11-30T07:30:50.808793+00:00 app[web.1]: [2024-11-30 07:30:50 +0000] [17] [INFO] Booting worker with pid: 17
+2024-11-30T07:30:51.159459+00:00 heroku[web.1]: State changed from starting to up
+2024-11-30T07:30:51.545436+00:00 app[web.1]: Application object must be callable.
+2024-11-30T07:30:51.545576+00:00 app[web.1]: [2024-11-30 07:30:51 +0000] [9] [INFO] Worker exiting (pid: 9)
+2024-11-30T07:30:51.606505+00:00 app[web.1]: Application object must be callable.
+2024-11-30T07:30:51.606654+00:00 app[web.1]: [2024-11-30 07:30:51 +0000] [17] [INFO] Worker exiting (pid: 17)
+2024-11-30T07:30:51.667020+00:00 app[web.1]: [2024-11-30 07:30:51 +0000] [2] [WARNING] Worker with pid 17 was terminated due to signal 15
+2024-11-30T07:30:51.758765+00:00 app[web.1]: [2024-11-30 07:30:51 +0000] [2] [INFO] Shutting down: Master
+2024-11-30T07:30:51.758787+00:00 app[web.1]: [2024-11-30 07:30:51 +0000] [2] [INFO] Reason: App failed to load.
+2024-11-30T07:30:51.825952+00:00 heroku[web.1]: Process exited with status 4
+2024-11-30T07:30:51.847939+00:00 heroku[web.1]: State changed from up to crashed
+2024-11-30T07:41:44.954797+00:00 heroku[web.1]: State changed from crashed to starting
+2024-11-30T07:41:50.698066+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2024-11-30T07:41:51.222953+00:00 app[web.1]: Python buildpack: Detected 512 MB available memory and 8 CPU cores.
+2024-11-30T07:41:51.222968+00:00 app[web.1]: Python buildpack: Defaulting WEB_CONCURRENCY to 2 based on the available memory.
+2024-11-30T07:41:51.440417+00:00 app[web.1]: [2024-11-30 07:41:51 +0000] [2] [INFO] Starting gunicorn 20.1.0
+2024-11-30T07:41:51.440691+00:00 app[web.1]: [2024-11-30 07:41:51 +0000] [2] [INFO] Listening at: http://0.0.0.0:29944 (2)
+2024-11-30T07:41:51.440712+00:00 app[web.1]: [2024-11-30 07:41:51 +0000] [2] [INFO] Using worker: sync
+2024-11-30T07:41:51.442648+00:00 app[web.1]: [2024-11-30 07:41:51 +0000] [9] [INFO] Booting worker with pid: 9
+2024-11-30T07:41:51.470767+00:00 app[web.1]: [2024-11-30 07:41:51 +0000] [17] [INFO] Booting worker with pid: 17
+2024-11-30T07:41:51.868024+00:00 heroku[web.1]: State changed from starting to up
+2024-11-30T07:41:52.229711+00:00 app[web.1]: Application object must be callable.
+2024-11-30T07:41:52.229879+00:00 app[web.1]: [2024-11-30 07:41:52 +0000] [9] [INFO] Worker exiting (pid: 9)
+2024-11-30T07:41:52.300550+00:00 app[web.1]: Application object must be callable.
+2024-11-30T07:41:52.300716+00:00 app[web.1]: [2024-11-30 07:41:52 +0000] [17] [INFO] Worker exiting (pid: 17)
+2024-11-30T07:41:52.358812+00:00 app[web.1]: [2024-11-30 07:41:52 +0000] [2] [WARNING] Worker with pid 17 was terminated due to signal 15
+2024-11-30T07:41:52.452448+00:00 app[web.1]: [2024-11-30 07:41:52 +0000] [2] [INFO] Shutting down: Master
+2024-11-30T07:41:52.452499+00:00 app[web.1]: [2024-11-30 07:41:52 +0000] [2] [INFO] Reason: App failed to load.
+2024-11-30T07:41:52.519958+00:00 heroku[web.1]: Process exited with status 4
+2024-11-30T07:41:52.538949+00:00 heroku[web.1]: State changed from up to crashed
+2024-11-30T07:41:55.670633+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=constraints-map-app-8747e23a54c0.herokuapp.com request_id=44ae5fb3-0466-445e-8690-7d126f30dc63 fwd="174.161.4.187,163.116.137.49" dyno= connect= service= status=503 bytes= protocol=https
+2024-11-30T07:41:56.157913+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=constraints-map-app-8747e23a54c0.herokuapp.com request_id=b323b805-1206-4b38-8156-d5814591e79b fwd="174.161.4.187,163.116.137.49" dyno= connect= service= status=503 bytes= protocol=https
