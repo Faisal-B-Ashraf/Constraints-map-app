@@ -5,7 +5,9 @@ import plotly.express as px
 import dash_split_pane  # For draggable layout
 
 # File path
-FILE_PATH = "data/new constraints table.xlsx"
+FILE_PATH = "data/New improved table.xlsx"
+
+
 
 # Read the Excel data
 data = pd.read_excel(FILE_PATH)
