@@ -244,3 +244,5 @@ def update_map(selected_dams):
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+# Add this line:
+server = app.server  # Expose the Flask server for deployment
