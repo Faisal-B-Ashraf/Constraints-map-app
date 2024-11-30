@@ -1,7 +1,7 @@
 dash==2.12.1
 dash-split-pane==1.0.0
 pandas==1.5.3
-numpy==1.21.6
+numpy>=1.24.0
 plotly==5.15.0
 folium==0.14.0
 gunicorn==20.1.0
